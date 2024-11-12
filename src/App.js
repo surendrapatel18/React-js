@@ -26,7 +26,7 @@ function App() {
         <Route path="/help" element={<><Navbar/><HelpPage/><Footer/></>}></Route>
         <Route path="/terms" element={<><Navbar/><TermsPage/><Footer/></>}></Route>
         <Route path="/privacy" element={<><Navbar/><PrivacyPage/><Footer/></>}></Route>
-        <Route path="" element={<><Navbar/><ErrorPage/><Footer/></>}></Route>
+        <Route path="*" element={<><Navbar/><ErrorPage/><Footer/></>}></Route>
         </Routes>
       </BrowserRouter>
 

@@ -7,7 +7,7 @@ const MainPage = () => {
   return (
     <>
      <div className="w-full bg-customorange">
-                <div className="w-full mx-auto max-w-[1440px] px-8">
+                <div className="w-full mx-auto max-w-[1440px] px-8 pt-20">
                     <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left">
                     <div className="mb-6 md:mb-0 pt-5">
                     <div className="md:text-[22px] text-lg text-white font-semibold pb-3">

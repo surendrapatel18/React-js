@@ -6,7 +6,7 @@ const PrivacyBanner = () => {
     return (
         <>
             <div className="w-full bg-customorange">
-                <div className="w-full mx-auto max-w-[1440px] px-8">
+                <div className="w-full mx-auto max-w-[1440px] px-8 pt-20">
                     <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left">
                       
                         <div className="mb-6 md:mb-0 pt-5">
@@ -23,7 +23,7 @@ const PrivacyBanner = () => {
                            
                             <img src={uperDesign} alt="Design" className="absolute  left-0 w-full h-auto" />
                           
-                            <img src={PrivacyPolicy} alt="Privacy Policy" className="relative  w-full h-auto" />
+                            <img src={PrivacyPolicy} alt="Privacy Policy" className="relative  w-full h-auto pt-10" />
                         </div>
                     </div>
                 </div>
